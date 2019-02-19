@@ -1,2 +1,5 @@
-start /d Frontend dotnet Frontend.dll
-start /d Backend dotnet Backend.dll
+cd Frontend
+start dotnet Frontend.dll
+
+cd ../Backend
+start dotnet Backend.dll
