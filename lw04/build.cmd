@@ -20,6 +20,12 @@ if %ERRORLEVEL% NEQ 0 (
     goto BuildError
 )
 
+cd ../TextRankCalc
+start /wait dotnet publish --configuration Release
+if %ERRORLEVEL% NEQ 0 (
+    goto BuildError
+)
+
 cd ../..
 if exist "%~1" (
     rd /s /q "%~1"
@@ -28,11 +34,13 @@ if exist "%~1" (
 mkdir "%~1"\Frontend
 mkdir "%~1"\Backend
 mkdir "%~1"\TextListener
+mkdir "%~1"\TextRankCalc
 mkdir "%~1"\config
 
 xcopy src\Frontend\bin\Release\netcoreapp2.2\publish "%~1"\Frontend\
 xcopy src\Backend\bin\Release\netcoreapp2.2\publish "%~1"\Backend\
 xcopy src\TextListener\bin\Release\netcoreapp2.2\publish "%~1"\TextListener\
+xcopy src\TextRankCalc\bin\Release\netcoreapp2.2\publish "%~1"\TextRankCalc\
 xcopy config "%~1"\config
 xcopy run.cmd "%~1"
 xcopy stop.cmd "%~1"
