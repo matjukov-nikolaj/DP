@@ -18,9 +18,11 @@ namespace Backend.Controllers
         static readonly ConcurrentDictionary<string, string> _data = new ConcurrentDictionary<string, string>();
 
         [HttpGet("{rank}")]
-        public IActionResult Get([FromQuery]string id, [FromQuery]string location)
+        public IActionResult Get([FromQuery]string id)
         {
             ConnectionMultiplexer redis = ConnectionMultiplexer.Connect(properties["REDIS_SERVER"]);
+            IDatabase queueDb = redis.GetDatabase(Convert.ToInt32(properties["QUEUE_DB"]));
+            string location = queueDb.StringGet("TEXT_" + id);
             IDatabase redisDb = redis.GetDatabase(Message.GetDatabaseNumber(location));
             for (short i = 0; i < 5; ++i)
             {
@@ -48,7 +50,7 @@ namespace Backend.Controllers
                 Message data = new Message(ParseData(value, 0), ParseData(value, 1));
                 string textKey = "TEXT_" + id;
                 data.SetID(textKey);
-                this.SaveDataToRedis(data.GetDatabase(), data);
+                this.SaveDataToRedis(data);
                 this.makeEvent(ConnectionMultiplexer.Connect(properties["REDIS_SERVER"]), data);
             }
             catch (Exception e)
@@ -58,17 +60,18 @@ namespace Backend.Controllers
 
             return id;
         }
-        private void SaveDataToRedis(int dbNumber, Message message)
+        private void SaveDataToRedis(Message message)
         {
-            var redisDb = ConnectionMultiplexer.Connect(properties["REDIS_SERVER"]).GetDatabase(dbNumber);
+            var redisDb = ConnectionMultiplexer.Connect(properties["REDIS_SERVER"]).GetDatabase(message.GetDatabase());
             redisDb.StringSet(message.GetId(), message.GetMessage());
-            string savedData = redisDb.StringGet(message.GetId());
+            var queueDb = ConnectionMultiplexer.Connect(properties["REDIS_SERVER"]).GetDatabase(Convert.ToInt32(properties["QUEUE_DB"]));
+            queueDb.StringSet(message.GetId(), message.GetLocation());
             Console.WriteLine(message.GetId() + ": " + message.GetMessage() + " - saved to redis " + message.GetLocation() + " : " + message.GetDatabase());
         }
         private void makeEvent(ConnectionMultiplexer redis, Message data)
         {
             ISubscriber sub = redis.GetSubscriber();
-            sub.Publish("events", $"{data.GetId()}:{data.GetMessage()}:{data.GetLocation()}");
+            sub.Publish("events", $"{data.GetId()}:{data.GetMessage()}");
         }
         
         private string ParseData(string msg, int index)

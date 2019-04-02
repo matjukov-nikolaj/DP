@@ -26,9 +26,8 @@ namespace TextRankCalc
                     if (id.Contains("TEXT_"))
                     {
                         string value = ParseData(msg, 1);
-                        string location = ParseData(msg, 2);
-                        SendMessage($"{id}:{value}:{location}:{4}", redis.GetDatabase(4));
-                        Console.WriteLine("Message sent => " + id + ": " + value + "Location: " + location + ": " + " Database: " + 4);
+                        SendMessage($"{id}:{value}", redis.GetDatabase(Convert.ToInt32(properties["QUEUE_DB"])));
+                        Console.WriteLine("Message sent => " + id + ": " + value);
                     }
                 });
                 Console.ReadKey();

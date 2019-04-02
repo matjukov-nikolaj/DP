@@ -1,2 +1,0 @@
-VowelConsCounter:3
-VowelConsRater:2

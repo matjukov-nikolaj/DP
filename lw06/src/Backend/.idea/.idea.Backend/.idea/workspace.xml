@@ -1,7 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf56874-27ce-44ea-b750-9e4e85dd1b91" name="Default Changelist" comment="" />
+    <list default="true" id="9cf56874-27ce-44ea-b750-9e4e85dd1b91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Frontend/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Frontend/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextListener/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextListener/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsRater/VowelConsRater.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsRater/VowelConsRater.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsRater/VowelConsRater.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsRater/VowelConsRater.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsRater/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsRater/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Core/Core/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/Core/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/.idea.Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/.idea.Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Frontend/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Frontend/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Frontend/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Frontend/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextListener/.idea/.idea.TextListener/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextListener/.idea/.idea.TextListener/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextListener/TextListener/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TextListener/TextListener/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsCounter/.idea/.idea.VowelConsCounter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsCounter/.idea/.idea.VowelConsCounter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsRater/VowelConsRater/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsRater/VowelConsRater/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsRater/VowelConsRater/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsRater/VowelConsRater/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Backend/Backend.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Backend/Backend.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Backend/Backend.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Backend/Backend.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Backend/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Backend/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Backend/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/Frontend.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/Frontend.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/Frontend.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/Frontend.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/Frontend.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/Frontend.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/bundleconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/Frontend/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextListener/TextListener.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextListener/TextListener.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextListener/TextListener.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextListener/TextListener.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextRankCalc/TextRankCalc.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextRankCalc/TextRankCalc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextRankCalc/TextRankCalc.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/TextRankCalc/TextRankCalc.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsCounter/VowelConsCounter.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsCounter/VowelConsCounter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsCounter/VowelConsCounter.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsCounter/VowelConsCounter.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsRater/VowelConsRater.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsRater/VowelConsRater.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsRater/VowelConsRater.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/VowelConsRater/VowelConsRater.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/config/number.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/run.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/MINOR/stop.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/build.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/config/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/config/number.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/run.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/.idea/.idea.Backend/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/Backend.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/Controllers/ValuesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Backend/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/.idea/.idea.Core/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/Configuration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/Core.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/Message.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Core/RedisDatabase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Frontend.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Views/Home/TextDetails.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Views/Home/Upload.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/bundleconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/Frontend/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/TextListener/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/TextListener/TextListener.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/TextRankCalc/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/TextRankCalc/TextRankCalc.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/VowelConsCounter/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/VowelConsCounter/VowelConsCounter.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/VowelConsRater/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/src/VowelConsRater/VowelConsRater.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lw06old/stop.cmd" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,21 +141,21 @@
         <entry file="file://$PROJECT_DIR$/Backend/Controllers/ValuesController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
-                <marker date="1553758507314" expanded="false" signature="6:251" ph="..." />
-                <marker date="1553758507314" expanded="true" signature="282:2849" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="363:2847" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="688:1311" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="929:1259" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="1040:1115" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="1136:1245" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="1410:1983" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="1484:1843" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="1875:1949" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="2051:2472" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="2546:2714" ph="{...}" />
-                <marker date="1553758507314" expanded="true" signature="2779:2841" ph="{...}" />
+                <marker date="1554234280650" expanded="false" signature="6:251" ph="..." />
+                <marker date="1554234280650" expanded="true" signature="282:3076" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="363:3074" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="660:1438" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="1056:1386" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="1167:1242" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="1263:1372" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="1537:2090" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="1611:1950" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="1982:2056" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="2144:2720" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="2794:2941" ph="{...}" />
+                <marker date="1554234280650" expanded="true" signature="3006:3068" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -38,10 +165,8 @@
         <entry file="file://$PROJECT_DIR$/../Core/Core/Message.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
-                <marker date="1553756283549" expanded="false" signature="6:47" ph="..." />
-                <marker date="1553756283549" expanded="true" signature="63:1324" ph="{...}" />
                 <marker date="1553756283549" expanded="true" signature="90:1322" ph="{...}" />
                 <marker date="1553756283549" expanded="true" signature="278:455" ph="{...}" />
                 <marker date="1553756283549" expanded="true" signature="491:544" ph="{...}" />
@@ -87,10 +212,24 @@
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Backend" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Backend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Backend" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,6 +239,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Core/Core.sln" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,11 +281,12 @@
       <workItem from="1553722376052" duration="2621000" />
       <workItem from="1553726217249" duration="847000" />
       <workItem from="1553755791188" duration="2708000" />
+      <workItem from="1554232063011" duration="2567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10373000" />
+    <option name="totallyTimeSpent" value="12940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -159,7 +300,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -204,29 +345,16 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Backend/Controllers/ValuesController.cs</url>
-          <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/Backend/Controllers/ValuesController.cs" initialLine="27">
-            <startOffsets>
-              <option value="960" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1006" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Backend/Controllers/ValuesController.cs</url>
-          <line>22</line>
+          <line>23</line>
           <properties documentPath="$PROJECT_DIR$/Backend/Controllers/ValuesController.cs" initialLine="23">
             <startOffsets>
-              <option value="711" />
+              <option value="784" />
             </startOffsets>
             <endOffsets>
-              <option value="799" />
+              <option value="863" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -239,13 +367,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <marker date="1554234280650" expanded="false" signature="6:251" ph="..." />
+            <marker date="1554234280650" expanded="true" signature="282:3076" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="363:3074" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="660:1438" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="1056:1386" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="1167:1242" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="1263:1372" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="1537:2090" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="1611:1950" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="1982:2056" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="2144:2720" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="2794:2941" ph="{...}" />
+            <marker date="1554234280650" expanded="true" signature="3006:3068" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Core/Core/Message.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <marker date="1553756283549" expanded="false" signature="6:47" ph="..." />
-            <marker date="1553756283549" expanded="true" signature="63:1324" ph="{...}" />
             <marker date="1553756283549" expanded="true" signature="90:1322" ph="{...}" />
             <marker date="1553756283549" expanded="true" signature="278:455" ph="{...}" />
             <marker date="1553756283549" expanded="true" signature="491:544" ph="{...}" />
@@ -255,28 +403,6 @@
             <marker date="1553756283549" expanded="true" signature="832:886" ph="{...}" />
             <marker date="1553756283549" expanded="true" signature="949:1316" ph="{...}" />
             <marker date="1553756283549" expanded="true" signature="1000:1306" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <marker date="1553758507314" expanded="false" signature="6:251" ph="..." />
-            <marker date="1553758507314" expanded="true" signature="282:2849" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="363:2847" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="688:1311" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="929:1259" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="1040:1115" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="1136:1245" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="1410:1983" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="1484:1843" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="1875:1949" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="2051:2472" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="2546:2714" ph="{...}" />
-            <marker date="1553758507314" expanded="true" signature="2779:2841" ph="{...}" />
           </folding>
         </state>
       </provider>

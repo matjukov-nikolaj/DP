@@ -59,7 +59,7 @@ namespace Frontend.Controllers
             var response = client.PostAsJsonAsync(url, data);
             id = response.Result.Content.ReadAsStringAsync().Result;
             string textDetailsRoute =
-	            properties["FRONTEND_HOST"] + TEXT_DETAILS_ROUTE + "id=" + id + "&location=" + location;
+	            properties["FRONTEND_HOST"] + TEXT_DETAILS_ROUTE + "id=" + id;
             return new RedirectResult(textDetailsRoute);
         }
 

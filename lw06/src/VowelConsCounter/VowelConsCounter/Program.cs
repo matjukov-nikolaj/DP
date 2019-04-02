@@ -33,22 +33,20 @@ namespace VowelConsCounter
                 sub.Subscribe(COUNTER_HINTS_CHANNEL, delegate
                 {
                     // process all messages in queue
-                    IDatabase redisDb = redis.GetDatabase(4);
+                    IDatabase redisDb = redis.GetDatabase(Convert.ToInt32(properties["QUEUE_DB"]));
                     string msg = redisDb.ListRightPop(COUNTER_QUEUE_NAME);
                     while (msg != null && msg != "")
                     {
                         string id = ParseData(msg, 0);
                         string value = ParseData(msg, 1);
-                        string location = ParseData(msg, 2);
-                        string database = ParseData(msg, 3);
                     
                         Dictionary<String, int> result = GetResultOfVowelsAndCons(value);
                         int vowels = result[VOWELS_STR];
                         int consonants = result[CONSONANTS_STR];
                         string resultStr = vowels + "\\" + consonants;
 
-                        SendMessage($"{id}:{resultStr}:{location}:{database}", redisDb);
-                        Console.WriteLine("Message sent => " + id + ": " + resultStr + " Database: " + database + " Location: " + location);
+                        SendMessage($"{id}:{resultStr}", redisDb);
+                        Console.WriteLine("Message sent => " + id + ": " + resultStr);
                         msg = redisDb.ListRightPop(COUNTER_QUEUE_NAME);
                     }
                 });

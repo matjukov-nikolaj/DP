@@ -20,14 +20,14 @@ namespace VowelConsRaterc
                 sub.Subscribe(RATE_HINTS_CHANNEL, delegate
                 {
                     // process all messages in queue
-                    IDatabase redisDbQueue = redis.GetDatabase(4);
+                    IDatabase redisDbQueue = redis.GetDatabase(Convert.ToInt32(properties["QUEUE_DB"]));
                     string msg = redisDbQueue.ListRightPop(RATE_QUEUE_NAME);
                     while (msg != null)
                     {
                         string id = ParseData(msg, 0);
 
                         string result = ParseData(msg, 1);
-                        string location = ParseData(msg, 2);
+                        string location = redisDbQueue.StringGet(id);
                         Message data = new Message(result, location);
 
                         string rankId = "RANK_" + id.Substring(5, id.Length - 5);
