@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\MarioSlim\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\MarioSlim\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_TextRankCalc.-1241607746.00" t="ExcludeRecursive" />
+    <e p="D:\DP\lw07\src\TextRankCalc" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TextRankCalc" t="IncludeRecursive">
+        <e p="application.properties" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="TextRankCalc.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TextRankCalc.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TextRankCalc.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+VowelConsCounter:1
+VowelConsRater:1
+TextStatistics:1
