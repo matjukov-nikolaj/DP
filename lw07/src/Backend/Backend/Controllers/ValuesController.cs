@@ -71,7 +71,7 @@ namespace Backend.Controllers
         private void makeEvent(ConnectionMultiplexer redis, Message data)
         {
             ISubscriber sub = redis.GetSubscriber();
-            sub.Publish("events", $"{data.GetId()}:{data.GetMessage()}");
+            sub.Publish("events", $"{data.GetId()}");
         }
         
         private string ParseData(string msg, int index)

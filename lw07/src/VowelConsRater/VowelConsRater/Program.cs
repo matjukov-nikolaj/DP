@@ -38,7 +38,7 @@ namespace VowelConsRaterc
                         redisDb.StringSet(rankId, result);
                         Console.WriteLine(rankId + ": " + result + " - saved to redis. Database: " + data.GetDatabase() + " - " + location);
                         msg = redisDb.ListRightPop(RATE_QUEUE_NAME);
-                        sub.Publish(RANK_CALCULATED_CHANNEL, $"{id}:{result}");
+                        sub.Publish("events", $"{id}:{result}");
                     }
                 });
             } catch (Exception e) {

@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a36bd53-2c91-4665-b2cd-750e9b8c161d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Backend/Backend/Controllers/StatisticController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Controllers/StatisticController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Views/Statistics/TextStatistic.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/.idea.Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/.idea.Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/Backend/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/Backend/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextListener/.idea/.idea.TextListener/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextListener/.idea/.idea.TextListener/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextListener/TextListener/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextListener/TextListener/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsCounter/.idea/.idea.VowelConsCounter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsCounter/.idea/.idea.VowelConsCounter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -290,12 +303,12 @@
       <workItem from="1553726402772" duration="499000" />
       <workItem from="1553755807482" duration="2642000" />
       <workItem from="1554233026488" duration="1595000" />
-      <workItem from="1554235397028" duration="3851000" />
+      <workItem from="1554235397028" duration="3915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14311000" />
+    <option name="totallyTimeSpent" value="14375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,7 +320,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />

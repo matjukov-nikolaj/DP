@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f42cd5-f61d-477b-8760-940fa3be17a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Backend/Backend/Controllers/StatisticController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Frontend/Frontend/Controllers/StatisticController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Frontend/Frontend/Views/Statistics/TextStatistic.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/.idea.Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/.idea.Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/Backend/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/Backend/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/.idea.Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/.idea.Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextListener/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextListener/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextListener/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextListener/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsCounter/.idea/.idea.VowelConsCounter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsCounter/.idea/.idea.VowelConsCounter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsCounter/VowelConsCounter/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,17 +35,16 @@
         <entry file="file://$PROJECT_DIR$/TextListener/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="26" selection-end-column="61" />
               <folding>
-                <marker date="1553715208905" expanded="false" signature="6:86" ph="..." />
-                <marker date="1553715208905" expanded="true" signature="110:1161" ph="{...}" />
-                <marker date="1553715208905" expanded="true" signature="130:1159" ph="{...}" />
-                <marker date="1553715208905" expanded="true" signature="271:1027" ph="{...}" />
-                <marker date="1553715208905" expanded="true" signature="357:911" ph="{...}" />
-                <marker date="1553715208905" expanded="true" signature="615:860" ph="{...}" />
-                <marker date="1553715208905" expanded="true" signature="734:842" ph="{...}" />
-                <marker date="1553715208905" expanded="true" signature="943:1017" ph="{...}" />
-                <marker date="1553715208905" expanded="true" signature="1091:1153" ph="{...}" />
+                <marker date="1554272058835" expanded="false" signature="6:86" ph="..." />
+                <marker date="1554272058835" expanded="true" signature="110:1391" ph="{...}" />
+                <marker date="1554272058835" expanded="true" signature="130:1389" ph="{...}" />
+                <marker date="1554272058835" expanded="true" signature="271:1383" ph="{...}" />
+                <marker date="1554272058835" expanded="true" signature="357:1267" ph="{...}" />
+                <marker date="1554272058835" expanded="true" signature="615:1216" ph="{...}" />
+                <marker date="1554272058835" expanded="true" signature="731:1198" ph="{...}" />
+                <marker date="1554272058835" expanded="true" signature="1299:1373" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -131,12 +143,12 @@
       <workItem from="1553714610613" duration="1647000" />
       <workItem from="1553722513692" duration="1772000" />
       <workItem from="1554233066780" duration="661000" />
-      <workItem from="1554235404457" duration="564000" />
+      <workItem from="1554235404457" duration="1539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5533000" />
+    <option name="totallyTimeSpent" value="6508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -159,7 +171,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -201,7 +213,7 @@
               <option value="654" />
             </startOffsets>
             <endOffsets>
-              <option value="688" />
+              <option value="685" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
@@ -214,17 +226,16 @@
     <entry file="file://$PROJECT_DIR$/TextListener/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="26" selection-end-column="61" />
           <folding>
-            <marker date="1553715208905" expanded="false" signature="6:86" ph="..." />
-            <marker date="1553715208905" expanded="true" signature="110:1161" ph="{...}" />
-            <marker date="1553715208905" expanded="true" signature="130:1159" ph="{...}" />
-            <marker date="1553715208905" expanded="true" signature="271:1027" ph="{...}" />
-            <marker date="1553715208905" expanded="true" signature="357:911" ph="{...}" />
-            <marker date="1553715208905" expanded="true" signature="615:860" ph="{...}" />
-            <marker date="1553715208905" expanded="true" signature="734:842" ph="{...}" />
-            <marker date="1553715208905" expanded="true" signature="943:1017" ph="{...}" />
-            <marker date="1553715208905" expanded="true" signature="1091:1153" ph="{...}" />
+            <marker date="1554272058835" expanded="false" signature="6:86" ph="..." />
+            <marker date="1554272058835" expanded="true" signature="110:1391" ph="{...}" />
+            <marker date="1554272058835" expanded="true" signature="130:1389" ph="{...}" />
+            <marker date="1554272058835" expanded="true" signature="271:1383" ph="{...}" />
+            <marker date="1554272058835" expanded="true" signature="357:1267" ph="{...}" />
+            <marker date="1554272058835" expanded="true" signature="615:1216" ph="{...}" />
+            <marker date="1554272058835" expanded="true" signature="731:1198" ph="{...}" />
+            <marker date="1554272058835" expanded="true" signature="1299:1373" ph="{...}" />
           </folding>
         </state>
       </provider>

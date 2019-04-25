@@ -26,7 +26,8 @@ namespace TextStatistics
             try {
                 ConnectionMultiplexer redis = ConnectionMultiplexer.Connect(properties["REDIS_SERVER"]);
                 ISubscriber sub = redis.GetSubscriber();
-                sub.Subscribe(RANK_CALCULATED_CHANNEL, (channel, message) =>
+                //Переделать канал
+                sub.Subscribe("events", (channel, message) =>
                 {
                     string value = ParseData(message, 1);
                     string[] values = value.Split('\\');

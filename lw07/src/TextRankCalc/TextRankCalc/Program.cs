@@ -21,12 +21,14 @@ namespace TextRankCalc
                 ISubscriber sub = redis.GetSubscriber();
                 sub.Subscribe("events", (channel, message) =>
                 {
-                    string msg = message.ToString();
-                    string id = ParseData(msg, 0);
+                    string id = message.ToString();
                     if (id.Contains("TEXT_"))
                     {
-                        string value = ParseData(msg, 1);
-                        SendMessage($"{id}:{value}", redis.GetDatabase(Convert.ToInt32(properties["QUEUE_DB"])));
+                        IDatabase queueDb = redis.GetDatabase(Convert.ToInt32(properties["QUEUE_DB"]));
+                        int dbNumber = Message.GetDatabaseNumber(queueDb.StringGet(id));
+                        IDatabase redisDb = redis.GetDatabase(dbNumber);
+                        string value = redisDb.StringGet(id);
+                        SendMessage($"{id}", queueDb);
                         Console.WriteLine("Message sent => " + id + ": " + value);
                     }
                 });
@@ -51,10 +53,6 @@ namespace TextRankCalc
             string savedData = db.StringGet(id);
             return savedData;
         }
-        
-        private static string ParseData(string msg, int index)
-        {
-            return msg.Split(':')[index];
-        }
+
     }
 }

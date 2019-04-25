@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7620e687-bbbb-448b-93f7-7cf486b27d50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Backend/Backend/Controllers/StatisticController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Frontend/Frontend/Controllers/StatisticController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Frontend/Frontend/Views/Statistics/TextStatistic.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/Backend/Backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextListener/TextListener.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/TextRankCalc/TextRankCalc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MINOR/VowelConsCounter/VowelConsCounter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/.idea.Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/.idea.Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/Backend/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/Backend/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/.idea.Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/.idea.Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/.idea.Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextListener/.idea/.idea.TextListener/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextListener/.idea/.idea.TextListener/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextListener/TextListener/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextListener/TextListener/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/.idea/.idea.TextRankCalc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRankCalc/TextRankCalc/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextStatistics/.idea/.idea.TextStatistics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VowelConsCounter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VowelConsCounter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VowelConsCounter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VowelConsCounter/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VowelConsRater/.idea/.idea.VowelConsRater/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +34,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VowelConsCounter/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="280">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
-                <marker date="1554233803885" expanded="false" signature="6:86" ph="..." />
-                <marker date="1554233803885" expanded="true" signature="114:3502" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="134:3500" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="397:434" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="504:619" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="895:2356" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="987:2233" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="1511:2199" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="2253:2314" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="2443:3039" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="2544:2830" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="2587:2636" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="2671:2724" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="3110:3368" ph="{...}" />
-                <marker date="1554233803885" expanded="true" signature="3432:3494" ph="{...}" />
+                <marker date="1554272896950" expanded="false" signature="6:86" ph="..." />
+                <marker date="1554272896950" expanded="true" signature="114:3564" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="134:3562" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="397:434" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="504:619" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="895:2544" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="987:2421" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="1511:2387" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="2441:2502" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="2631:3227" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="2732:3018" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="2775:2824" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="2859:2912" ph="{...}" />
+                <marker date="1554272896950" expanded="true" signature="3298:3556" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -147,12 +159,12 @@
       <workItem from="1553722575640" duration="2273000" />
       <workItem from="1553725767499" duration="1132000" />
       <workItem from="1554233045195" duration="1240000" />
-      <workItem from="1554235430238" duration="563000" />
+      <workItem from="1554235430238" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6615000" />
+    <option name="totallyTimeSpent" value="7522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,7 +187,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -211,29 +223,29 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/VowelConsCounter/Program.cs</url>
-          <line>74</line>
+          <line>77</line>
           <properties documentPath="$PROJECT_DIR$/VowelConsCounter/Program.cs" initialLine="76">
             <startOffsets>
-              <option value="3038" />
+              <option value="3226" />
             </startOffsets>
             <endOffsets>
-              <option value="3039" />
+              <option value="3227" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/VowelConsCounter/Program.cs</url>
-          <line>35</line>
-          <properties documentPath="$PROJECT_DIR$/VowelConsCounter/Program.cs" initialLine="35">
+          <line>84</line>
+          <properties documentPath="$PROJECT_DIR$/VowelConsCounter/Program.cs" initialLine="84">
             <startOffsets>
-              <option value="1304" />
+              <option value="3483" />
             </startOffsets>
             <endOffsets>
-              <option value="1383" />
+              <option value="3546" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -241,24 +253,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VowelConsCounter/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="280">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
-            <marker date="1554233803885" expanded="false" signature="6:86" ph="..." />
-            <marker date="1554233803885" expanded="true" signature="114:3502" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="134:3500" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="397:434" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="504:619" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="895:2356" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="987:2233" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="1511:2199" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="2253:2314" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="2443:3039" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="2544:2830" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="2587:2636" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="2671:2724" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="3110:3368" ph="{...}" />
-            <marker date="1554233803885" expanded="true" signature="3432:3494" ph="{...}" />
+            <marker date="1554272896950" expanded="false" signature="6:86" ph="..." />
+            <marker date="1554272896950" expanded="true" signature="114:3564" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="134:3562" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="397:434" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="504:619" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="895:2544" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="987:2421" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="1511:2387" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="2441:2502" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="2631:3227" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="2732:3018" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="2775:2824" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="2859:2912" ph="{...}" />
+            <marker date="1554272896950" expanded="true" signature="3298:3556" ph="{...}" />
           </folding>
         </state>
       </provider>
